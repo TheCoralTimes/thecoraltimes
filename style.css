@@ -1,0 +1,12 @@
+h1{
+    margin:auto;
+    padding:32px;
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: #293189;
+    font-family: "Arial", Helvetica, sans-serif;
+    color: white;
+    border-color: black;
+    border: 6px;
+}

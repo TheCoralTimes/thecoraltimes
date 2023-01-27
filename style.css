@@ -6,7 +6,7 @@
     width: auto;
     text-align: center;
     background-color: #293189;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    font-family: 'Brush Script MT', cursive;
     color: white;
 }
 
@@ -22,16 +22,15 @@
 .navbutton {
     color: white;
     background-color: #293189;
-    margin: auto;
-    width: 20%;
+    width: 15%;
     cursor: pointer;
-    height: 30%;
+    height: 50%;
     font-size:16px;
     padding: 8px;
     border: 4px solid #293189;
+    font-family: 'Gill Sans', sans-serif
 }
 
 .navbutton:hover {
     background-color: #424dcf;
-
 }

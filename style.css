@@ -22,7 +22,7 @@ a:hover.navbutton {
 .navbutton {
     color: white;
     background-color: dodgerblue;
-    font-family: helvetica,arial,sans-serif;
+    font-family: "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     padding: 10px;
 }
 

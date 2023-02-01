@@ -39,7 +39,7 @@ a:hover.navbutton {
 }
 
 .homelink {
-    justify-content: flex-start;
+    justify-content: center;
     flex: .5;
     font-size: 36px;
 }

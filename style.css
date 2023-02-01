@@ -1,39 +1,46 @@
 body {
     background-image: url("./assets/crumpled-paper-background.png");
 }
+
+a:hover.navbutton {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
 .navbar,
-.topbar {
-    margin:auto;
-    padding:16px;
-    height: auto;
-    width: auto;
-    text-align: center;
-    background-color: #293189;
-    font-family: 'Brush Script MT', cursive;
-    color: white;
+.navbutton,
+.left-navbar,
+.right-navbar,
+.homelink,
+.logobar {
+    display: flex;
+    align-items: center;
 }
 
-.topbar {   
-    font-size: 18px;
-}
-
-.navbar {
-    border: 8px;
-    border-color: black;
-}
-
+.homelink,
+.navbar,
 .navbutton {
     color: white;
-    background-color: #293189;
-    width: 15%;
-    cursor: pointer;
-    height: 50%;
-    font-size:16px;
-    padding: 8px;
-    border: 4px solid #293189;
-    font-family: 'Gill Sans', sans-serif
+    background-color: dodgerblue;
+    font-family: helvetica,arial,sans-serif;
+    padding: 10px;
 }
 
-.navbutton:hover {
-    background-color: #424dcf;
+.homelink,
+.navbutton {
+    text-decoration: none;
 }
+
+.left-navbar,
+.right-navbar {
+    justify-content: flex-end;
+    flex: .25;
+    flex-direction: column;
+}
+
+.homelink {
+    justify-content: flex-start;
+    flex: .5;
+    font-size: 36px;
+}
+

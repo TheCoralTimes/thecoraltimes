@@ -46,13 +46,18 @@ a:hover.navbutton {
 }
 
 .homelink,
-.homelink-box {
+.homelink-box,
+.logobar {
     justify-content: center;
 }
 
 .logobar {
     flex: .35;
-    justify-content: center;
+}
+
+.logopic {
+    height: 64px;
+    width: auto;
 }
 
 .navbar {
@@ -69,3 +74,4 @@ a:hover.navbutton {
     flex: content;
     justify-content: flex-end;
 }
+

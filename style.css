@@ -45,8 +45,13 @@ a:hover.navbutton {
     text-align: center;
 }
 
+.homelink,
+.homelink-box {
+    justify-content: center;
+}
+
 .logobar {
-    flex: .2;
+    flex: .35;
     justify-content: center;
 }
 
@@ -55,12 +60,12 @@ a:hover.navbutton {
 }
 
 .homelink {
-    justify-content: center;
-    flex: .5;
     font-size: 36px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .buttonbox {
-    flex: .5;
+    flex: content;
     justify-content: flex-end;
 }

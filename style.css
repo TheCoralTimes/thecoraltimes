@@ -1,10 +1,26 @@
+@font-face {
+    font-family: 'Essays 1743';
+    src: url("./fonts/essays1743/Essays1743-Bold.ttf");
+}
+
+html,
 body {
-    background-image: url("./assets/crumpled-paper-background.png");
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #edeced;
+}
+
+a:hover.navbutton,
+a:hover.homelink {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 a:hover.navbutton {
-    background-color: deepskyblue;
-    cursor: pointer;
+    background-color: #2c648f;
 }
 
 .navbar,
@@ -12,7 +28,8 @@ a:hover.navbutton {
 .left-navbar,
 .right-navbar,
 .homelink,
-.logobar {
+.logobar,
+.buttonbox {
     display: flex;
     align-items: center;
 }
@@ -20,22 +37,21 @@ a:hover.navbutton {
 .homelink,
 .navbar,
 .navbutton {
-    color: white;
-    background-color: dodgerblue;
-    font-family: "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    color: #edeced;
+    background-color: #27577c;
+    font-family: 'Essays 1743', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     padding: 10px;
-}
-
-.homelink,
-.navbutton {
     text-decoration: none;
+    text-align: center;
 }
 
-.left-navbar,
-.right-navbar {
-    justify-content: flex-end;
-    flex: .25;
-    flex-direction: column;
+.logobar {
+    flex: .2;
+    justify-content: center;
+}
+
+.navbar {
+    flex-wrap: wrap;
 }
 
 .homelink {
@@ -44,3 +60,7 @@ a:hover.navbutton {
     font-size: 36px;
 }
 
+.buttonbox {
+    flex: .5;
+    justify-content: flex-end;
+}

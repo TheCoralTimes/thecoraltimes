@@ -8,18 +8,23 @@
     </head>
     <body>
         <div class="navbar">
-            <div class="logobar">
-                <img src="./assets/icon.png" alt="Coral Academy Logo" height="64px" width="auto" class="logopic">
+            <div class="left-navbar">
+                <div class="logobar">
+                    <img src="./assets/icon.png" alt="Coral Academy Logo" height="64px" width="auto" class="logopic">
+                </div>
+                <div class="homelink">
+                    <a href="./index.html" class="homelink">The Coral Times</a>
+                </div>
             </div>
-            <div class="homelink">
-                <a href="./index.html" class="homelink">The Coral Times</a>
+            <div class="right-navbar">
+                <div class="buttonbox">
+                    <a class="navbutton">Latest Issue</a>
+                    <a class="navbutton">Past Issues</a>
+                    <a class="navbutton">Staff</a>
+                    <a class="navbutton">Contact Us</a>
+                </div>
             </div>
-            <div class="buttonbox">
-                <a class="navbutton">Latest Issue</a>
-                <a class="navbutton">Past Issues</a>
-                <a class="navbutton">Staff</a>
-                <a class="navbutton">Contact Us</a>
-            </div>
+            
         </div>
     </body>
 </html>

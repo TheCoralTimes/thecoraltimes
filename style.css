@@ -51,6 +51,22 @@ a:hover.navbutton {
     justify-content: center;
 }
 
+.right-navbar,
+.buttonbox {
+    justify-content: flex-end;
+}
+
+.left-navbar {
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.right-navbar {
+    flex: auto;
+    justify-content: flex-end;
+    margin-right: 36px;
+}
+
 .logobar {
     flex: .35;
 }
@@ -71,7 +87,10 @@ a:hover.navbutton {
 }
 
 .buttonbox {
-    flex: content;
-    justify-content: flex-end;
+    flex: .5;
+    justify-content: space-evenly;
 }
 
+.navbutton {
+    font-size: 18px;
+}

@@ -1,6 +1,25 @@
 .body-block,
-.body-title {
+.body-title,
+.left-body,
+.right-body {
     display: flex;
+}
+
+.body-title,
+.body-block {
+    justify-content: center;
+}
+
+.left-body,
+.right-body {
+    flex-direction: column;
+    flex: .5;
+}
+
+.title-block,
+.body-section {
+    border: solid 4px;
+    border-color: black;
 }
 
 .body-block {
@@ -8,15 +27,21 @@
     margin-top: 32px;
     margin-right: 32px;
     margin-left: 32px;
-    justify-content: center;
 }
 
 .body-title {
     color: black;
     font-family: 'Essays 1743', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-size: 24px;
+}
+
+.title-block {
+    padding: 32px;
     padding-left: 64px;
     padding-right: 64px;
-    border: solid 4px;
-    border-color: 4px;
 }
+
+.body-body {
+    font-family: 'Ubuntu', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+

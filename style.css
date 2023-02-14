@@ -13,7 +13,6 @@ body {
     background-color: #edeced;
 }
 
-a:hover.navbutton,
 a:hover.homelink {
     cursor: pointer;
     text-decoration: underline;
@@ -96,4 +95,5 @@ a:hover.navbutton {
 
 .navbutton {
     font-size: 18px;
+    transition: background-color .5s;
 }

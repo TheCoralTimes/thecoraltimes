@@ -21,7 +21,7 @@
                     <a class="navbutton">Latest Issue</a>
                     <a class="navbutton">Past Issues</a>
                     <a class="navbutton">Staff</a>
-                    <a class="navbutton">Contact Us</a>
+                    <a class="navbutton" href="./contact-us.html">Contact Us</a>
                 </div>
             </div>
             

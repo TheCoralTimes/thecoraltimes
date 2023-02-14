@@ -1,13 +1,23 @@
-.body-block,
 .body-title,
+.body-block,
 .left-body,
-.right-body {
+.right-body,
+.body-section,
+.contact-button {
     display: flex;
 }
 
 .body-title,
-.body-block {
+.body-block,
+.left-body,
+.right-body,
+.body-section {
     justify-content: center;
+}
+
+.body-title,
+.contact-button {
+    font-family: 'Ubuntu', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 
 .left-body,
@@ -17,21 +27,17 @@
 }
 
 .title-block,
-.body-section {
+.contact-button {
     border: solid 4px;
     border-color: black;
 }
 
 .body-block {
-    flex: content;  
-    margin-top: 32px;
-    margin-right: 32px;
-    margin-left: 32px;
+    flex: 1;
 }
 
 .body-title {
     color: black;
-    font-family: 'Essays 1743', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
     font-size: 24px;
 }
 
@@ -41,7 +47,21 @@
     padding-right: 64px;
 }
 
-.body-body {
-    font-family: 'Ubuntu', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+.body-section {
+    margin: 32px;
+    padding: 16px;
 }
 
+.contact-button {
+    text-align: center;
+    transition: background-color .5s;
+    transition: color .5s;
+    padding: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-button:hover {
+    background-color: #272727;
+    color: white;
+}

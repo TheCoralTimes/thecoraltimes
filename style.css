@@ -10,6 +10,7 @@
 
 html,
 body {
+    height: 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -65,12 +66,18 @@ a:hover.navbutton {
     justify-content: space-evenly;
 }
 
+.homelink,
+.navbutton {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .left-navbar {
-    flex: 1;
+    flex: content;
 }
 
 .right-navbar {
-    flex: auto;
+    flex: content;
     justify-content: flex-end;
     margin-right: 36px;
 }
@@ -86,12 +93,12 @@ a:hover.navbutton {
 
 .navbar {
     flex-wrap: wrap;
+    flex: auto;
+    width: 100%;
 }
 
 .homelink {
     font-size: 36px;
-    overflow: hidden;
-    white-space: nowrap;
 }
 
 .buttonbox {

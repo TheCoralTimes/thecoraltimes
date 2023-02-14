@@ -1,16 +1,12 @@
 .body-title,
-.body-block,
-.left-body,
-.right-body,
+.title-block,
+.section-container,
 .body-section,
 .contact-button {
     display: flex;
 }
 
 .body-title,
-.body-block,
-.left-body,
-.right-body,
 .body-section {
     justify-content: center;
 }
@@ -20,25 +16,14 @@
     font-family: 'Ubuntu', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
 
-.left-body,
-.right-body {
-    flex-direction: column;
-    flex: .5;
-}
-
 .title-block,
 .contact-button {
     border: solid 4px;
     border-color: black;
 }
 
-.body-block {
-    flex: 1;
-}
-
 .body-title {
-    color: black;
-    font-size: 24px;
+    margin-bottom: 3dvh;
 }
 
 .title-block {
@@ -47,17 +32,25 @@
     padding-right: 64px;
 }
 
+.section-container {
+    flex-direction: column;
+}
+
 .body-section {
-    margin: 32px;
-    padding: 16px;
+    margin-top: 2dvh;
+    margin-bottom: 2dvh;
 }
 
 .contact-button {
+    justify-content: center;
     text-align: center;
     transition: background-color .5s;
-    padding: 32px;
+    padding: 2dvw;
     text-decoration: none;
     color: black;
+    flex: auto;
+    margin-right: 25dvw;
+    margin-left: 25dvw;
 }
 
 .contact-button:hover {

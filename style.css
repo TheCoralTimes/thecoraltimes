@@ -3,6 +3,11 @@
     src: url("./fonts/essays1743/Essays1743-Bold.ttf");
 }
 
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("./fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
 html,
 body {
     margin: 0px;

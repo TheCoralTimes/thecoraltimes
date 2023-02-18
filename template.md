@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./styles/style.css">
         <title>The Coral Times</title>
         <link rel="icon" href="./assets/icon.png">
     </head>
@@ -19,12 +19,11 @@
             <div class="right-navbar">
                 <div class="buttonbox">
                     <a class="navbutton">Latest Issue</a>
-                    <a class="navbutton">Past Issues</a>
-                    <a class="navbutton">Staff</a>
+                    <a class="navbutton" href="./past-issues.html">Past Issues</a>
+                    <a class="navbutton" href="./staff.html">Staff</a>
                     <a class="navbutton" href="./contact-us.html">Contact Us</a>
                 </div>
             </div>
-            
         </div>
     </body>
 </html>

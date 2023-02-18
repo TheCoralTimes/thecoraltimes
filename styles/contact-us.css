@@ -11,11 +11,6 @@
     justify-content: center;
 }
 
-.body-title,
-.contact-button {
-    font-family: 'Ubuntu', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-}
-
 .title-block,
 .contact-button {
     border: solid 4px;

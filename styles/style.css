@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Essays 1743';
-    src: url("./fonts/essays1743/Essays1743-Bold.ttf");
+    src: url("../fonts/essays1743/Essays1743-Bold.ttf");
 }
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url("./fonts/Ubuntu/Ubuntu-Regular.ttf");
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
 }
 
 html,
@@ -108,4 +108,9 @@ a:hover.navbutton {
 .navbutton {
     font-size: 18px;
     transition: background-color .5s;
+    padding: 24px;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }

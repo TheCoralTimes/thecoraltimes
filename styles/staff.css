@@ -1,0 +1,28 @@
+.body-container,
+.body-box,
+.body-section {
+    display: flex;
+}
+
+.body-title,
+.body-section {
+    color: #edeced;
+}
+
+.body-container,
+.body-box {
+    justify-content: center;
+    flex: auto;
+}
+
+.body-box {
+    background-color: #27577c;
+    margin-left: 15dvw;
+    margin-right: 15dvw;
+    margin-top: 5dvw;
+}
+
+.body-title {
+    font-size: 24px;
+}
+

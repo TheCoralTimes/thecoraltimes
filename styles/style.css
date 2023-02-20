@@ -108,7 +108,10 @@ a:hover.navbutton {
 .navbutton {
     font-size: 18px;
     transition: background-color .5s;
-    padding: 24px;
+    padding-left: 2dvw;
+    padding-right: 2dvw;
+    padding-top: 2dvh;
+    padding-bottom: 2dvh;
 }
 
 .ubuntu {

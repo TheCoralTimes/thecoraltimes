@@ -13,15 +13,15 @@
                     <img src="./assets/icon.png" alt="Coral Academy Logo" height="64px" width="auto" class="logopic">
                 </div>
                 <div class="homelink">
-                    <a href="./index.html" class="homelink">The Coral Times</a>
+                    <a href="./index.html" class="homelink large-text">The Coral Times</a>
                 </div>
             </div>
             <div class="right-navbar">
                 <div class="buttonbox">
-                    <a class="navbutton">Latest Issue</a>
-                    <a class="navbutton" href="./past-issues.html">Past Issues</a>
-                    <a class="navbutton" href="./staff.html">Staff</a>
-                    <a class="navbutton" href="./contact-us.html">Contact Us</a>
+                    <a class="navbutton medium-text">Latest Issue</a>
+                    <a class="navbutton medium-text" href="./past-issues.html">Past Issues</a>
+                    <a class="navbutton medium-text" href="./staff.html">Staff</a>
+                    <a class="navbutton medium-text" href="./contact-us.html">Contact Us</a>
                 </div>
             </div>
         </div>

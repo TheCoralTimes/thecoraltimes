@@ -8,6 +8,34 @@
     src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
 }
 
+@media screen and (max-width: 400px) {
+    .large-text {
+        font-size: 26px;
+    }
+
+    .medium-text {
+        font-size: 18px;
+    }
+
+    .body-text {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    .large-text {
+        font-size: 36px;
+    }
+
+    .medium-text {
+        font-size: 24px;
+    }
+
+    .body-text {
+        font-size: 14px;
+    }
+}
+
 html,
 body {
     height: 100%;
@@ -97,16 +125,11 @@ a:hover.navbutton {
     width: 100%;
 }
 
-.homelink {
-    font-size: 36px;
-}
-
 .buttonbox {
     flex: .5;
 }
 
 .navbutton {
-    font-size: 18px;
     transition: background-color .5s;
     padding-left: 2dvw;
     padding-right: 2dvw;
@@ -116,4 +139,12 @@ a:hover.navbutton {
 
 .ubuntu {
     font-family: 'Ubuntu', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+.white {
+    color: #edeced;
+}
+
+.essays {
+    font-family: 'Essays 1743', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }

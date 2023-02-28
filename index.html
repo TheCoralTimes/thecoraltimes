@@ -13,7 +13,7 @@
                     <img src="./assets/icon.png" alt="Coral Academy Logo" height="64px" width="auto" class="logopic">
                 </div>
                 <div class="homelink">
-                    <a href="./index.html" class="homelink large-text">The Coral Times</a>
+                    <a class="homebutton white large-text" href="./index.html">The Coral Times</a>
                 </div>
             </div>
             <div class="right-navbar">

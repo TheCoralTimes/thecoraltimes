@@ -1,3 +1,20 @@
+@media screen and (max-width: 600px) {
+    .contact-button {
+        width: 75dvw;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .contact-button {
+        width: 50dvw;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+
 .body-title,
 .title-block,
 .section-container,
@@ -40,12 +57,8 @@
     justify-content: center;
     text-align: center;
     transition: background-color .5s;
-    padding: 2dvw;
     text-decoration: none;
     color: black;
-    flex: auto;
-    margin-right: 25dvw;
-    margin-left: 25dvw;
 }
 
 .contact-button:hover {

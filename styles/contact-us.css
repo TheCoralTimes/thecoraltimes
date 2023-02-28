@@ -1,16 +1,16 @@
 @media screen and (max-width: 600px) {
     .contact-button {
         width: 75dvw;
-        padding-top: 8px;
-        padding-bottom: 8px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
 }
 
 @media screen and (min-width: 601px) {
     .contact-button {
         width: 50dvw;
-        padding-top: 16px;
-        padding-bottom: 16px;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 }
 
@@ -30,8 +30,8 @@
 
 .title-block,
 .contact-button {
-    border: solid 4px;
     border-color: black;
+    border: solid 4px;
 }
 
 .body-title {

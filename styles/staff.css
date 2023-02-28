@@ -25,8 +25,13 @@
     margin-top: 5dvw;
 }
 
+.body-title {
+    margin: 8px;
+}
+
 .body-section {
-    padding: 5dvw;
+    padding-left: 5dvw;
+    padding-right: 5dvw;
     flex: 1;
     align-items: center;
 }
@@ -44,6 +49,7 @@
     width: auto;
     margin-right: 5dvw;
     margin-left: 5dvw;
+    margin-bottom: 5dvw;
 }
 
 .hoverlarge {

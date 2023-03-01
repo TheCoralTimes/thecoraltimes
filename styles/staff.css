@@ -1,3 +1,15 @@
+@media screen and (max-width: 600px) {
+    .namebutton {
+        width: 50dvw;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .namebutton {
+        width: 25dvw;
+    }
+}
+
 .body-container,
 .body-box,
 .body-title,
@@ -41,8 +53,8 @@
 }
 
 .namebutton {
-    width: 25dvw;
     margin-bottom: 2dvh;
+    text-decoration: none;
 }
 
 .break {
@@ -60,7 +72,7 @@
 }
 
 .hoverlarge:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     background-color: #2c648f;
 }
 

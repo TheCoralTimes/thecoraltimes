@@ -20,6 +20,12 @@
     .body-text {
         font-size: 12px;
     }
+
+    .navbutton {
+        padding-left: 1dvw;
+        padding-right: 1dvw;
+    }
+
 }
 
 @media screen and (min-width: 601px) {
@@ -34,6 +40,12 @@
     .body-text {
         font-size: 14px;
     }
+
+    .navbutton {
+        padding-left: 3dvw;
+        padding-right: 3dvw;
+    }
+    
 }
 
 html,
@@ -73,7 +85,6 @@ a:hover.navbutton {
     color: #edeced;
     background-color: #27577c;
     font-family: 'Essays 1743', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-    padding: 10px;
     text-decoration: none;
     text-align: center;
 }
@@ -82,11 +93,6 @@ a:hover.navbutton {
 .homelink-box,
 .logobar {
     justify-content: center;
-}
-
-.right-navbar,
-.buttonbox {
-    justify-content: flex-end;
 }
 
 .left-navbar,
@@ -100,46 +106,47 @@ a:hover.navbutton {
     white-space: nowrap;
 }
 
+.navbar {
+    top: 0;
+    position: fixed;
+    flex-wrap: wrap;
+    flex: auto;
+    width: 100%;
+    border-bottom: solid 4px;
+    border-bottom-color: black;
+}
+
 .homelink {
-    flex-direction: column;
-    align-items: center;
+    flex: auto;
+    justify-content: left;
 }
 
 .left-navbar {
-    flex: content;
+    flex: 1;
 }
 
 .right-navbar {
     flex: content;
     justify-content: flex-end;
-    margin-right: 36px;
 }
 
 .logobar {
-    flex: .35;
+    flex: content;
 }
 
 .logopic {
-    height: 64px;
+    height: 7.5dvh;
     width: auto;
-}
-
-.navbar {
-    flex-wrap: wrap;
-    flex: auto;
-    width: 100%;
+    padding-right: 1dvw;
+    padding-left: 1dvw;
 }
 
 .buttonbox {
-    flex: .5;
+    flex: content;
 }
 
 .navbutton {
     transition: background-color .5s;
-    padding-left: 2dvw;
-    padding-right: 2dvw;
-    padding-top: 2dvh;
-    padding-bottom: 2dvh;
 }
 
 .homebutton {

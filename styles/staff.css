@@ -2,11 +2,21 @@
     .namebutton {
         width: 50dvw;
     }
+    
+    .body-box {
+        margin-left: 5dvw;
+        margin-right: 5dvw;
+    }
 }
 
 @media screen and (min-width: 601px) {
     .namebutton {
         width: 25dvw;
+    }
+    
+    .body-box {
+        margin-left: 10dvw;
+        margin-right: 10dvw;
     }
 }
 
@@ -30,10 +40,12 @@
     flex-direction: column;
 }
 
+.body-container {
+    margin-top: 10dvh;
+}
+
 .body-box {
     background-color: #27577c;
-    margin-left: 10dvw;
-    margin-right: 10dvw;
     margin-top: 5dvw;
 }
 

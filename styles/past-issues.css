@@ -1,0 +1,36 @@
+.wrapper,
+.body,
+.body-container,
+.title-container {
+    display: flex;
+}
+
+.wrapper,
+.body,
+.body-container {
+    flex-direction: column;
+}
+
+.wrapper {
+    min-height: 100dvh;
+    min-width: 100dvw;
+    height: 100dvh;
+    width: 100dvw;
+    align-items: center;
+}
+
+.body {
+    min-height: 100dvh;
+    min-width: 70dvw;
+    height: 100dvh;
+    width: 70dvw;
+}
+
+.title-container {
+    justify-content: center;
+    margin-top: 15dvh;
+}
+
+.body-container {
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+.embed-container,
+.embed {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (min-width: 601px) {
+
+}
+
+iframe {
+    max-height: 100dvh;
+    max-width: 100dvw;
+    width: 100dvh;
+    height: 100dvw;
+}
+
+.embed-container {
+    margin-top: 15dvh;
+    justify-content: center;
+    flex: auto;
+    min-height: 100dvh;
+}

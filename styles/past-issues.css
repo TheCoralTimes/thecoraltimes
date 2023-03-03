@@ -34,3 +34,10 @@
 .body-container {
     align-items: center;
 }
+
+.break {
+    width: auto;
+    margin-right: 5dvw;
+    margin-left: 5dvw;
+    margin-bottom: 5dvw;
+}

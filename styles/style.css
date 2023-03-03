@@ -168,3 +168,15 @@ a:hover.navbutton {
 .essays {
     font-family: 'Essays 1743', "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
+
+.coral-blue {
+    color: #27577c;
+}
+
+.white-bg {
+    background-color: #edeced;
+}
+
+.coral-blue-bg {
+    background-color: #27577c;
+}

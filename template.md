@@ -10,7 +10,7 @@
         <div class="navbar">
             <div class="left-navbar">
                 <div class="logobar">
-                    <img src="./assets/icon.png" alt="Coral Academy Logo" height="64px" width="auto" class="logopic">
+                    <img src="./assets/icon.png" alt="Coral Academy Logo" class="logopic">
                 </div>
                 <div class="homelink">
                     <a class="homebutton white large-text" href="./index.html">The Coral Times</a>
@@ -21,7 +21,7 @@
                     <a class="navbutton medium-text">Latest Issue</a>
                     <a class="navbutton medium-text" href="./past-issues.html">Past Issues</a>
                     <a class="navbutton medium-text" href="./staff.html">Staff</a>
-                    <a class="navbutton medium-text" href="./contact-us.html">Contact Us</a>
+                    <a class="navbutton med ium-text" href="./contact-us.html">Contact Us</a>
                 </div>
             </div>
         </div>

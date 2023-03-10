@@ -3,6 +3,10 @@
     src: url("../fonts/essays1743/Essays1743-Bold.ttf");
 }
 
+body {
+    background-color: black;
+}
+
 @font-face {
     font-family: 'Ubuntu';
     src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
@@ -115,7 +119,10 @@ a:hover.navbutton {
     border-bottom: solid 4px;
     border-bottom-color: black;
 }
-
+.wrapper {
+    background-color: black;
+    color: white;
+}
 .homelink {
     flex: auto;
     justify-content: left;

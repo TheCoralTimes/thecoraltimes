@@ -14,7 +14,9 @@
     }
 }
 
-
+body {
+    color: white;
+}
 .body-title,
 .title-block,
 .section-container,
@@ -47,6 +49,7 @@
 
 .section-container {
     flex-direction: column;
+    color: white;
 }
 
 .body-section {

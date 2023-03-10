@@ -9,6 +9,8 @@
 .body,
 .body-container {
     flex-direction: column;
+    background-color: black;
+    color: white;
 }
 
 .wrapper {
